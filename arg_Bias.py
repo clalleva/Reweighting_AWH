@@ -9,11 +9,6 @@ from MDAnalysis.analysis import distances
 import scipy as sc
 
 
-## To plot ##
-from matplotlib import cm 
-import matplotlib.pyplot as plt
-from mpl_toolkits.axes_grid1 import make_axes_locatable
-
 ## To work on the trajectory ##
 import MDAnalysis as mda
    
