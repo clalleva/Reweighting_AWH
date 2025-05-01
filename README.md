@@ -30,7 +30,7 @@ This script assumes that the frequency of `AWH` writing is 25 times the frequenc
 
 ## arg_prob.py 
 
-This script extract the bias applied in each timestep.
+This script calculates the corrected probability for the variable of interest, given the files for bias and weight values as obtained by  `arg_Bias.py` and the timeseries for the variable of interest.
 
 ### Usage
 
