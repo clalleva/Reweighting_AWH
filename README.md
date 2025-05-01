@@ -20,4 +20,4 @@ python arg_Bias.py -v --input variable_timeseries.npy --pullx pullx_file.xvg --a
 
 ### Note 
 
-This script assumes that the frequency of `AWH` writing is 25 times the frequency of the trajectory writing. You can modify this modifying the number in the line ``.
+This script assumes that the frequency of `AWH` writing is 25 times the frequency of the trajectory writing. You can modify this modifying the number in the lines `a = np.load(args.input)[::25]` and `a = np.load(ts_input)[::25]`.
