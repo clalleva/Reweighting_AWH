@@ -27,7 +27,7 @@ parser.add_argument("--input", help = "Time series of variable of interest", def
 parser.add_argument("-b", "--bias", help = "Bias", default= "calculated_bias.npy")
 parser.add_argument("-w", "--weights", help = "weights", default="calculated_weigths.npy")
 parser.add_argument("-c", "--column", help = "weights", default=1, type=int)
-parser.add_argument("--bins", help = "weights", default=25, type=int)
+parser.add_argument("--bins", help = "Number of bins to use", default=25, type=int)
 
 
 args = parser.parse_args()
