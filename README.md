@@ -39,3 +39,4 @@ python arg_prob.py -v --input variable_timeseries.npy -b extracted_bias.npy -w  
 `-v` for verbosity
 `--bins` Number of bins to use
 
+#Just checking
